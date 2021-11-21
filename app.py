@@ -2,7 +2,7 @@
 from flask import Flask, request
 
 # create app
-app = Flask(name)
+app = Flask(_name_)
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -22,5 +22,5 @@ def index():
         return 'result: %s' % result
 
 # run app
-if name == 'main':
+if _name_ == '_main_':
     app.run(debug=True)
